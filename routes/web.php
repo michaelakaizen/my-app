@@ -21,5 +21,3 @@ Route::get('/', function () {
 Route::get('about', function () {
     //return
 });
-
-//hjkhjkhfa sdfhkjsfha
