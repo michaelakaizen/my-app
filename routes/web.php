@@ -13,12 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-//fghgdfhfghfghfgh
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('about', function () {
-    //return
+Route::post('post', function (request, response) {
+    //return response
 });
-// comment thisfile
