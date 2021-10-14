@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::post('post', function (request, response) {
-    //return response
+
+Route::post('post', function () {
+    return view('response');
 });
 //this is first commit
