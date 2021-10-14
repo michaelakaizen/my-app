@@ -20,4 +20,7 @@ Route::get('/', function () {
 Route::post('post', function () {
     return view('response');
 });
-//this is first commit
+
+Route::get('histori', function () {
+    //return
+});
